@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackCh>
+            <version>0.1.0</version>
+            <locale>de_CH</locale>
+            <title>German (Switzerland) Language Pack</title>
+            <link_git>https://github.com/MaWoScha/German_LocalePack_de_CH</link_git>
+            <link_mage>http://www.magentocommerce.com/magento-connect/community-module-german-switzerland-language-pack.html</link_mage>
+        </German_LocalePackCh>
+    </modules>
+
+    <global>
+        <models>
+            <localepackch>
+                <class>German_LocalePackCh_Model</class>
+            </localepackch>
+        </models>
+        <helpers>
+            <localepackch>
+                <class>German_LocalePackCh_Helper</class>
+            </localepackch>
+        </helpers>
+        <blocks>
+            <localepackch>
+                <class>German_LocalePackCh_Block</class>
+            </localepackch>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackch>
+                        <class>localepackch/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackch>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+
+    <default>
+        <localepackch>
+             <notification>
+                <url>https://github.com/MaWoScha/German_LocalePack_de_CH</url>
+            </notification>
+        </localepackch>
+        <magesetup>
+            <default_country>CH</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <localepackch>
+                    <files>
+                    	<default>localepackch.xml</default>
+                    </files>
+                </localepackch>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <German_LocalePackCh>
+                    <files>
+                        <localepackch>German_LocaleCh.csv</localepackch>
+                        <default>German_LocaleDe.csv</default>
+                    </files>
+                </German_LocalePackCh>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackch">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackch translate="title" module="localepackch">
+                                            		<title>German (Switzerland) Language Pack</title>
+                                        		</localepackch> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
