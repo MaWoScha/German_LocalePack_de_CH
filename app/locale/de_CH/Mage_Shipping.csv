@@ -1,7 +1,7 @@
 "Close Window","Fenster schliessen"
 "Description","Beschrieb"
 "Duplicate Row #%s (Country ""%s"", Region/State ""%s"", Zip ""%s"" and Value ""%s"").","Zeile Nr. %s kopieren (Land ""%s"", Kanton/Bundesland ""%s"", PLZ ""%s"" und Wert ""%s"")."
-"Invalid Region/State ""%s"" in the Row #%s.","Ungültiger Kanton ""%s"" in Zeile %s."
+"Invalid Region/State ""%s"" in the Row #%s.","Ungültiger Kanton/Bundesland ""%s"" in Zeile %s."
 "Region/State","Kanton/Bundesland"
 "Street Address","Strasse"
 "Street Address Line 2","Strasse 2. Zeile"

@@ -1,5 +1,5 @@
-"Default Country","Standardland"
-"Default Post Code","Standard PLZ"
-"Default State","Standard Kanton/Bundesland"
+"Default Country","Land (voreingestellt)"
+"Default Post Code","PLZ (voreingestellt)"
+"Default State","Kanton/Bundesland (voreingestellt)"
 "Range To should be equal or greater than Range From.","Bis-Bereich sollte gleich oder grösser als Von-Bereich."
 "Rate Percent should be a positive number.","Prozentsatz sollte eine Zahl grösser 0 sein."
