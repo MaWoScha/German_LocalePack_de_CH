@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackCh>
-            <version>0.4.0</version>
+            <version>0.4.1</version>
             <locale>de_CH</locale>
             <title>German (Switzerland) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_CH</link_git>
@@ -63,7 +63,7 @@
             <updates>
                 <localepackch>
                     <files>
-                    	<default>localepackch.xml</default>
+                        <default>localepackch.xml</default>
                     </files>
                 </localepackch>
             </updates>
@@ -91,11 +91,11 @@
                                     <children> <!--
                                         <localepacks translate="title" module="localepackch">
                                             <title>Language Packs</title>
-                                    		<children> -->
-                                        		<localepackch translate="title" module="localepackch">
-                                            		<title>German (Switzerland) Language Pack</title>
-                                        		</localepackch> <!--
-                                    		</children>
+                                            <children> -->
+                                                <localepackch translate="title" module="localepackch">
+                                                    <title>German (Switzerland) Language Pack</title>
+                                                </localepackch> <!--
+                                            </children>
                                         </localepacks> -->
                                     </children>
                                 </config>
