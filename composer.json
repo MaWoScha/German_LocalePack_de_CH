@@ -94,8 +94,11 @@
       ["app/locale/de_CH/Mage_XmlConnect.csv", "app/locale/de_CH/Mage_XmlConnect.csv"],
       ["app/locale/de_CH/Phoenix_Moneybookers.csv", "app/locale/de_CH/Phoenix_Moneybookers.csv"],
       ["app/locale/de_CH/German_LocaleCh.csv", "app/locale/de_CH/German_LocaleCh.csv"],
-      ["app/locale/de_FR/German_LocaleCh.csv", "app/locale/de_FR/German_LocaleCh.csv"],
-      ["app/locale/fr_FR/German_LocaleCh.csv", "app/locale/fr_FR/German_LocaleCh.csv"]
+      ["app/locale/de_DE/German_LocaleCh.csv", "app/locale/de_DE/German_LocaleCh.csv"],
+      ["app/locale/fr_CH/German_LocaleCh.csv", "app/locale/fr_CH/German_LocaleCh.csv"],
+      ["app/locale/fr_FR/German_LocaleCh.csv", "app/locale/fr_FR/German_LocaleCh.csv"],
+      ["app/locale/it_CH/German_LocaleCh.csv", "app/locale/it_CH/German_LocaleCh.csv"],
+      ["app/locale/it_IT/German_LocaleCh.csv", "app/locale/it_IT/German_LocaleCh.csv"]
     ]
   },
   "config": {

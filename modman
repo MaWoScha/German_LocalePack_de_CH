@@ -14,6 +14,11 @@ app/etc/modules/German_LocalePackCh.xml                       app/etc/modules/Ge
 
 #LocalePack Translation
 app/locale/de_CH/German_LocaleCh.csv app/locale/de_CH/German_LocaleCh.csv
+app/locale/de_DE/German_LocaleCh.csv app/locale/de_DE/German_LocaleCh.csv
+app/locale/fr_CH/German_LocaleCh.csv app/locale/fr_CH/German_LocaleCh.csv
+app/locale/fr_FR/German_LocaleCh.csv app/locale/fr_FR/German_LocaleCh.csv
+app/locale/it_CH/German_LocaleCh.csv app/locale/it_CH/German_LocaleCh.csv
+app/locale/it_IT/German_LocaleCh.csv app/locale/it_IT/German_LocaleCh.csv
 
 #Adminhtml und Default Theme
 app/design/adminhtml/default/default/locale/de_CH/translate.csv     app/design/adminhtml/default/default/locale/de_CH/translate.csv
@@ -80,6 +85,7 @@ app/locale/de_CH/Mage_Shipping.csv app/locale/de_CH/Mage_Shipping.csv
 app/locale/de_CH/Mage_Sitemap.csv app/locale/de_CH/Mage_Sitemap.csv
 app/locale/de_CH/Mage_Tag.csv app/locale/de_CH/Mage_Tag.csv
 app/locale/de_CH/Mage_Tax.csv app/locale/de_CH/Mage_Tax.csv
+app/locale/de_CH/Mage_Uploader.csv app/locale/de_CH/Mage_Uploader.csv
 app/locale/de_CH/Mage_Usa.csv app/locale/de_CH/Mage_Usa.csv
 app/locale/de_CH/Mage_Weee.csv app/locale/de_CH/Mage_Weee.csv
 app/locale/de_CH/Mage_Widget.csv app/locale/de_CH/Mage_Widget.csv

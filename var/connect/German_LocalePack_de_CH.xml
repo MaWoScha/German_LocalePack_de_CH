@@ -142,6 +142,9 @@ Paquete de idioma alemana para Magento Commerce - Versión para Suiza</descripti
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -216,9 +219,12 @@ Paquete de idioma alemana para Magento Commerce - Versión para Suiza</descripti
          <path>de_CH/Mage_Widget.csv</path>
          <path>de_CH/Mage_Wishlist.csv</path>
          <path>de_CH/Mage_XmlConnect.csv</path>
+         <path>ch_CH/German_LocaleCh.csv</path>
          <path>de_CH/German_LocaleCh.csv</path>
-         <path>de_FR/German_LocaleCh.csv</path>
+         <path>ch_FR/German_LocaleCh.csv</path>
          <path>fr_FR/German_LocaleCh.csv</path>
+         <path>ch_IT/German_LocaleCh.csv</path>
+         <path>it_IT/German_LocaleCh.csv</path>
       </path>
       <type>
          <type>file</type>
@@ -226,6 +232,9 @@ Paquete de idioma alemana para Magento Commerce - Versión para Suiza</descripti
          <type>file</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -373,9 +382,15 @@ Paquete de idioma alemana para Magento Commerce - Versión para Suiza</descripti
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
