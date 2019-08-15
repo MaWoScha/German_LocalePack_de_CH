@@ -13,7 +13,7 @@ German language pack for Magento Commerce - Version for Switzerland
 Paquete de idioma alemana para Magento Commerce - Versión para Suiza</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.4.1</version>
+   <version>0.4.2</version>
    <stability>stable</stability>
    <notes>none</notes>
    <authors>
@@ -34,7 +34,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Suiza</descripti
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.1.0</depends_php_max>
    <depends>
       <package>
          <name>
